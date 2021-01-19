@@ -109,7 +109,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 
 
 ################################################################################
-## Per-judge effects to rule out outliers (see footnote 22)
+## Per-judge effects to rule out outliers (see footnote 21)
 ################################################################################
 
 m <- 'main'; y <- 'pro_defendant'
