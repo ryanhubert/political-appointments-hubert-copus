@@ -173,7 +173,7 @@ Clean <- function(datafr, mask, out, treat, control,
   iblocks <- colnames(datafr)[grepl("treat.",colnames(datafr))]
   
   ## Rename treatment variable
-  treat.control <- paste0(c(treat,control,extra.regressors), collapse = "PRESERVE")
+  treat.control <- paste0(c(treat,control,extra.regressors), collapse = ".")
   colnames(datafr)[4] <- treat.control
   
   ## Formulate a regression model
