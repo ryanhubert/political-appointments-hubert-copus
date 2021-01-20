@@ -1,6 +1,14 @@
 # Ryan Hübert and Ryan Copus
 # Political Appointments and Outcomes in Federal District Courts
+# Journal of Politics
 # January 2021
+
+## Data and supporting materials necessary to reproduce the numerical results
+## in the article are available in the Journal of Politics Dataverse
+## (https://dataverse.harvard.edu/dataverse/jop) and at the website of the
+## corresponding author (https://ryanhubert.com/). An online appendix with
+## supplementary material is available at the Journal of Politics website
+## and at the website of the corresponding author.
 
 require(tidyverse)
 require(estimatr)
