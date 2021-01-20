@@ -4,7 +4,12 @@ This repository contains replication materials for "Political Appointments and
 Outcomes in Federal District Courts" by Ryan Hübert and Ryan Copus, which is
 forthcoming in the _Journal of Politics_. 
 
-Download the manuscript and online appendix [here](https://ryanhubert.com/publications/revisiting-ideology/).  
+A copy of these replication files, as well as the associated datasets, are 
+available in the _Journal of Politics_ Dataverse 
+([https://dataverse.harvard.edu/dataverse/jop](https://dataverse.harvard.edu/dataverse/jop)).
+
+Download a pre-print version of the manuscript and online appendix 
+[here](https://ryanhubert.com/publications/revisiting-ideology/).  
 
 ## Software Requirements
 
@@ -37,7 +42,8 @@ We provide codebooks for the variables in each dataset: see
 `codebook-main.txt` and `codebook-appeals.txt`.
 
 The archived version of the original dataset compiled for use on this project is
-available at [xxx], as well as in this GitHub repository.
+available in the _Journal of Politics_ Dataverse at 
+[https://doi.org/10.7910/DVN/HUYOHI](https://doi.org/10.7910/DVN/HUYOHI).
 
 ## Replication Procedure
 
