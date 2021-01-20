@@ -1,5 +1,6 @@
 # Ryan Hübert and Ryan Copus
 # Political Appointments and Outcomes in Federal District Courts
+# January 2021
 
 import numpy as np
 import pandas as pd
@@ -11,7 +12,7 @@ root = ""
 ## Root directory must have a trailing slash
 if root[-1] != "/":
     root = root + "/"
-    
+
 ################################################################################
 ## Define functions to calculate IPW, AIPW, and bootstrapped SEs
 ################################################################################

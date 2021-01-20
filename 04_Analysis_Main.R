@@ -1,3 +1,7 @@
+# Ryan Hübert and Ryan Copus
+# Political Appointments and Outcomes in Federal District Courts
+# January 2021
+
 require(tidyverse)
 require(estimatr)
 
