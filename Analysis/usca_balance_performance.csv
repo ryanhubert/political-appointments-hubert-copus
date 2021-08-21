@@ -1,0 +1,17 @@
+subset,model,algorithm,mse_tf_cv,auc_tf_cv,mse_vf,auc_vf,obs_tf,obs_vf
+maj_rep-pro_defendant,0,my_rf,0.151646,0.848339,0.139486,0.858327,4771.0,3091.0
+maj_rep-pro_defendant,0,my_lasso,0.213697,0.689651,0.205111,0.664886,4771.0,3091.0
+maj_rep-pro_defendant,0,my_ols,0.213872,0.689107,0.205679,0.663371,4771.0,3091.0
+maj_rep-pro_defendant,0,my_ensemble,0.14779,0.848137,0.135691,0.858318,4771.0,3091.0
+maj_rep-pro_defendant,1,my_rf,0.118014,0.886605,0.17119,0.809208,3091.0,4771.0
+maj_rep-pro_defendant,1,my_lasso,0.200865,0.670495,0.227186,0.660223,3091.0,4771.0
+maj_rep-pro_defendant,1,my_ols,0.201641,0.667251,0.227864,0.658955,3091.0,4771.0
+maj_rep-pro_defendant,1,my_ensemble,0.110767,0.886406,0.171245,0.809204,3091.0,4771.0
+maj_rep-maj_rep,bench,my_rf,0.230768,0.605286,0.227766,0.623303,7862.0,7862.0
+maj_rep-maj_rep,bench,my_lasso,0.230749,0.605428,0.227766,0.623304,7862.0,7862.0
+maj_rep-maj_rep,bench,my_ols,0.231019,0.603765,0.227765,0.623304,7862.0,7862.0
+maj_rep-maj_rep,bench,my_ensemble,0.230791,0.603757,0.22801,0.623303,7862.0,7862.0
+maj_rep-maj_rep,full,my_rf,0.215609,0.680169,0.056834,0.999843,7862.0,7862.0
+maj_rep-maj_rep,full,my_lasso,0.230209,0.613003,0.224308,0.642971,7862.0,7862.0
+maj_rep-maj_rep,full,my_ols,0.230715,0.611534,0.224257,0.642978,7862.0,7862.0
+maj_rep-maj_rep,full,my_ensemble,0.215897,0.679786,0.049981,0.999844,7862.0,7862.0

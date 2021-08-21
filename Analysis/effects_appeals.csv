@@ -1,0 +1,4 @@
+effect,se,obs,panels_treat,panels_control,fe_count,estimator
+0.0777,0.0149,7862,929,1427,51,unadjusted
+0.0603,0.0146,7862,929,1427,51,ipw
+0.0538,0.0097,7862,929,1427,51,aipw
