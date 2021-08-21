@@ -148,7 +148,7 @@ dev.off()
 
 rm(list = ls()[which(!ls() %in% kobj)])
 
-## Plot Figure B.1
+## Plot Figure B1
 
 tp <- summarize(group_by(df[maskm,], court, YEAR), tp = n())
 tp$court <- factor(tp$court, levels = unique(tp$court))
@@ -184,7 +184,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 ## Main effects
 ################################################################################
 
-## Compile Table C.1 (main effects)
+## Compile Table C1 (main effects)
 
 ## Create a dataframe of the relevant effects
 tp <- as.data.frame(ef)
@@ -371,7 +371,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 ## Biased effects
 ################################################################################
 
-## Compile Table C.2 (biased effects)
+## Compile Table C2 (biased effects)
 
 ## Create a data frame
 tp <- as.data.frame(ef)
@@ -465,7 +465,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 ## Judge-specific effects
 ################################################################################
 
-## Plot Figure C.2
+## Plot Figure C1
 
 tp <- ef[grepl('^j[0-9]',ef$treatment),]
 tp <- tp[order(tp$effect),]
@@ -594,7 +594,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 ## Adjacent president effects
 ################################################################################
 
-## Compile Table C.3
+## Compile Table C3
 
 mask1 <- ef$mask =="main" & ef$outcome =="pro_defendant"
 mask2 <- ef$treatment %in% c('jobama.jbush43', 'jbush43.jclinton', 'jclinton.jbush41', 'jreagan.jcarter')
@@ -643,7 +643,7 @@ for(r in 1:nrow(row1)){
 cat(paste0("\\hline\\hline\n\\end{tabular}\n"), file=fl, append=TRUE)
 
 
-## Plot Figure C.3
+## Plot Figure C2
 wave <- round(sum(tp$effect * (tp$obs/ef$obs[mask1 & ef$treatment == 'jrepublican.jdemocrat'][1])),3)
 
 z <- ggplot(tp, aes(x = treatment)) +
@@ -683,7 +683,7 @@ rm(list = ls()[which(!ls() %in% kobj)])
 ## Section 4.1: Comparing to Ninth Circuit
 ################################################################################
 
-## Compile Table D.4 (appeals effects)
+## Compile Table D1 (appeals effects)
 af <- read.csv(paste0(root, "Analysis/effects_appeals.csv"), stringsAsFactors = FALSE)
 
 tp <- af
@@ -718,7 +718,7 @@ for(r in 1:nrow(row1)){
 }
 cat(paste0("\\hline\\hline\n\\end{tabular}\n"), file=fl, append=TRUE)
 
-## Plot Figure D.4
+## Plot Figure D1
 
 auc <- read.csv(paste0(root, 'Analysis/usca_balance_performance.csv'), colClasses = "character")
 auc <- auc[auc$algorithm == 'my_ensemble' & auc$subset=='maj_rep-maj_rep', c('model', 'auc_tf_cv')]
@@ -797,7 +797,7 @@ rm(z1, z2, z3, auc, roc, pf)
 ## Over time effect
 ################################################################################
 
-## Compile Table E.5 (overtime effects)
+## Compile Table E1 (overtime effects)
 
 my <- (ef$outcome == 'pro_defendant')
 mm <- grepl("^(cl|bush43|ob)",ef$mask)
