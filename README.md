@@ -4,9 +4,11 @@ This repository contains replication materials for "Political Appointments and
 Outcomes in Federal District Courts" by Ryan Hübert and Ryan Copus, which is
 forthcoming in the _Journal of Politics_. 
 
-A copy of these replication files, as well as the associated datasets, are 
-available in the _Journal of Politics_ Dataverse at 
-https://doi.org/10.7910/DVN/HUYOHI.
+Copies of these replication files, as well as the associated datasets, are 
+available at:
+- the _Journal of Politics_ Dataverse at https://doi.org/10.7910/DVN/HUYOHI, and
+- a GitHub repository maintained by the corresponding author at 
+  https://github.com/ryanhubert/political-appointments-hubert-copus
 
 Download a pre-print version of the manuscript and online appendix at the 
 website of the corresponding author listed at the bottom of this README file.
